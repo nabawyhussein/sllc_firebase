@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "936176724490",
+    "project_id": "doo-app-c355e",
+    "storage_bucket": "doo-app-c355e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936176724490:android:fdd922b1b42e9ce2a54df3",
+        "android_client_info": {
+          "package_name": "com.doo.chatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936176724490-lk0elmfouv258q28rlpa6s6gnr6gmpcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCncp3qsANh5xY26ptsygTKavrd4eULwTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936176724490-lk0elmfouv258q28rlpa6s6gnr6gmpcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936176724490:android:0e5adee8a235b064a54df3",
+        "android_client_info": {
+          "package_name": "com.nabawy.sllctask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936176724490-lk0elmfouv258q28rlpa6s6gnr6gmpcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCncp3qsANh5xY26ptsygTKavrd4eULwTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936176724490-lk0elmfouv258q28rlpa6s6gnr6gmpcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
