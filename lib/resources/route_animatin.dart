@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Route createRoute(StatelessWidget screen) {
   return PageRouteBuilder(
-    transitionDuration: const Duration(milliseconds: 280),
+    transitionDuration: const Duration(milliseconds: 800),
     reverseTransitionDuration: const Duration(milliseconds: 120),
     pageBuilder: (context, animation, secondaryAnimation) => screen,
     transitionsBuilder: (context, animation, secondaryAnimation, child) {

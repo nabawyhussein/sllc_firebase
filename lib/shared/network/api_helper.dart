@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
 
-import '../app_path_controller.dart';
+import '../../resources/network_api_path_controller.dart';
 
 class APIClient {
   static Future<http.Response?> getDataWithHttp(
