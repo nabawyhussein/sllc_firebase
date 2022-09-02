@@ -5,7 +5,6 @@
 
 
 import 'dart:ui';
-import 'assets_manger.dart';
 
 class AppConstant {
   static const int splashDelay = 1;
