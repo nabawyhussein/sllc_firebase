@@ -42,7 +42,7 @@ flutter:
     - assets/lottie/
     - assets/images/
     - assets/svg/
-    - assets/translation/
+    - assets/translations/
     - assets/icons/
 
   # fonts:

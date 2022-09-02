@@ -6,7 +6,7 @@ const String JSON_PATH = "assets/json";
 const String LOTTY_PATH = "assets/lottie/";
 
 class AppImages {
-  static const appLogo = "$IMAGE_PATH/";
+  static const appLogo = "$IMAGE_PATH/qtlogo.png";
   static const appSignIn = "$IMAGE_PATH/";
   static const appSignUp = "$IMAGE_PATH/";
   static const backGround = "$IMAGE_PATH/";
