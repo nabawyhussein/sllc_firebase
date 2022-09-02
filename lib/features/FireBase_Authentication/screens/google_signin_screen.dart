@@ -2,16 +2,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
-import 'package:sllctask/provider/signin_controller.dart';
-import 'package:sllctask/ui/screens/home_screen.dart';
-import 'package:sllctask/ui/widgets/build_button.dart';
+import '../../../shared/widgets/build_button.dart';
+import '../../Storage/screens/home_screen.dart';
+import '../provider/signin_controller.dart';
 
 class SignIn extends StatelessWidget {
   const SignIn({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,

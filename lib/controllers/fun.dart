@@ -1,11 +1,12 @@
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../features/FireBase_Authentication/provider/signin_controller.dart';
+import '../features/FireBase_Authentication/screens/google_signin_screen.dart';
 import '../models/weightModelVm.dart';
-import '../provider/signin_controller.dart';
-import '../ui/screens/signin_screen.dart';
 
 Future<void> deleteField(String id) {
   final deleteWeight = FirebaseFirestore.instance.collection('weight').doc(id);

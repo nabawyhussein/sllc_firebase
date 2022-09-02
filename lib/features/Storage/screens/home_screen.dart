@@ -1,14 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:sllctask/models/weightModelVm.dart';
-import 'package:sllctask/ui/screens/signin_screen.dart';
-import 'package:sllctask/ui/widgets/build_button.dart';
-import 'package:sllctask/ui/widgets/build_text_field.dart';
-
-import '../../controllers/fun.dart';
-import '../../provider/signin_controller.dart';
+import '../../../controllers/fun.dart';
+import '../../../shared/widgets/build_button.dart';
+import '../../../shared/widgets/build_text_field.dart';
 
 class MyHomePage extends StatelessWidget {
    MyHomePage({Key? key, required this.title}) : super(key: key);
